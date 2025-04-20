@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en"
+    class="bg-dark js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"
+    style="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Home Page
+    </title>
+    <script src="Content/Scripts/modernizr-2.8.3.js"></script>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <style>
+        body {
+            /*  When view width gets smaller than this value, overall layout 
+                does not break. Cause: order of CSS process is VS Default >
+                Bootstrap. After a moment, when Bootstrap gets active handling
+                all viewports, this value will reset.
+            */
+            min-width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <section aria-labelledby="grandSponsorAdvertisement">
+        <div id="carouselSponsors" class="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="carouselSponsors" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Sponsored Title 1"></button>
+                <button type="button" data-bs-target="carouselSponsors" data-bs-slide-to="1"
+                    aria-label="Sponsored Title 2"></button>
+                <button type="button" data-bs-target="carouselSponsors" data-bs-slide-to="2"
+                    aria-label="Sponsored Title 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="Content/Img/sponsor-active.jpg" class="d-block w-100"
+                        alt="Promotional Content from Grand Sponsor">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Excerpt representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img src="Content/Img/sponsor-carousel.jpg" class="d-block w-100"
+                        alt="Promotional Content from Grand Sponsor">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Excerpt representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Content/Img/sponsor-carousel.jpg" class="d-block w-100"
+                        alt="Promotional Content from Grand Sponsor">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Excerpt representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item"></div>
+                <div class="carousel-item"></div>
+            </div>
+            <button class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <p>
+        <br>
+    </p>
+    <form method="post" action="./Default" id="ctl01">
+        <div class="aspNetHidden">
+            <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+            <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"
+                value="k/QaLB6YbGsMrYasqb7pxprTIZ8FF+5Lq1oEQ6NJ8pIgSOp5LBphrHPIW8tfFbvIuEFuWXUAt4L2rabShh6B7UrMKXyBs9Apz/sROzO/IrQ=">
+        </div>
+
+        <script type="text/javascript">
+            //<![CDATA[
+            var theForm = document.forms['ctl01'];
+            if (!theForm) {
+                theForm = document.ctl01;
+            }
+            function __doPostBack(eventTarget, eventArgument) {
+                if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                    theForm.__EVENTTARGET.value = eventTarget;
+                    theForm.__EVENTARGUMENT.value = eventArgument;
+                    theForm.submit();
+                }
+            }
+            //]]>
+        </script>
+
+
+
+        <script src="Content/Bundles/MsAjax.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            //<![CDATA[
+            if (typeof (Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+            //]]>
+        </script>
+
+        <script src="Content/Scripts/jquery-3.7.0.js" type="text/javascript"></script>
+        <script src="Content/Bundles/WebForms.js"
+            type="text/javascript"></script>
+        <div class="aspNetHidden">
+
+            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334">
+        </div>
+        <script type="text/javascript">
+            //<![CDATA[
+            Sys.WebForms.PageRequestManager._initialize('ctl00$ctl09', 'ctl01', [], [], [], 90, 'ctl00');
+            //]]>
+        </script>
+
+
+        <div
+            class="navbar navbar-expand-lg container-fluid d-flex justify-content-center justify-content-md-between my-3 mb-0 p-3">
+
+            <style>
+                a.navbar-brand>img {
+                    width: 3rem;
+                    height: 3rem;
+                }
+
+                a.navbar-brand {}
+            </style>
+            <a class="navbar-brand col-3 col-md-2 d-flex justify-content-center" href="#">
+                <img src="Content/Img/atrack_logo.png">
+                A TEST
+            </a>
+            <button class="navbar-toggler col-1 p-2 m-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle Navigation">
+                <img class="img-fluid" src="Content/Img/Navbar Toggle icon.jpg" alt="Navbar toggle icon">
+            </button>
+
+            <div class=" collapse navbar-collapse flex-column" id="navbarNav">
+                <ul class="navbar-nav gap-3 d-flex flex-wrap text-center text-sm-start px-4 p-md-4 p-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" aria-current="page">Category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active  bg-light px-5" href="#">All Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tag List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Filters</a>
+                    </li>
+                </ul>
+            </div>
+
+            <input class=" col-7 col-sm-4 col-md-5 form-control me-2" type="search" placeholder="Search"
+                aria-label="Search">
+            <button class=" col-2 col-md-1 btn btn-outline-success" type="submit">Search</button>
+
+
+
+        </div>
+    </form>
+
+
+    <nav class="container d-flex flex-wrap my-5 py-4 px-5 pb-4" aria-labelledby="breadcrumb">
+        <div class="d-flex w-100">
+            <div class="align-self-center w-50">
+                <img class="img-fluid" src="Content/Img/tag-image-1.jpg" alt="Tag NAME">
+            </div>
+            <ol class="breadcrumb d-flex flex-column align-self-center mx-3">
+                <li class="breadcrumb-item"><a href="#">HOME</a></li>
+                <li class="breadcrumb-item"><a href="#">CATEGORY</a></li>
+                <li class="breadcrumb-item active">NAME</li>
+            </ol>
+        </div>
+        <div class="py-3 w-50">
+            <p class="w-50 text-center mx-auto">A placeholder for a short intro text paragraph for this current
+                displayed Tag</p>
+        </div>
+    </nav>
+
+    <div class="w-50 ms-auto m-5 pe-5">
+        <img class="img-fluid" src="Content/Img/secondary-advertisement-for-Grand-Sponsors.jpg"
+            alt="Additional advertisement rotates for Grand Sponsors">
+        <p class=" fs-6 fw-light py-3">Ad</p>
+    </div>
+
+    <div class="container body-content py-5 my-5">
+
+
+        <main>
+            <p class=" fs-1 py-5">Most Purchased Items</p>
+            <section class=" d-flex mb-5 gap-5 overflow-auto pb-5" aria-labelledby="threeMostPurchasedItems">
+                <img class=" w-50 img-fluid align-self-center" src="Content/Img/most-purchased-item-1-active.jpg"
+                    alt="detail content for item 1 with most sales">
+                <img class=" w-25 img-fluid align-self-center" src="Content/Img/most-purchased-item-2.jpg"
+                    alt="detail content for item 2 with most sales">
+                <img class=" w-25 img-fluid align-self-center" src="Content/Img/most-purchased-item-3.jpg"
+                    alt="detail content for item 3 with most sales">
+                <img class=" w-25 img-fluid align-self-center" src="Content/Img/most-purchased-item-4.jpg"
+                    alt="detail content for item 4 with most sales">
+                <img class=" w-25 img-fluid align-self-center" src="Content/Img/most-purchased-item-5.jpg"
+                    alt="detail content for item 5 with most sales">
+            </section>
+            <a class="btn btn-light fs-6 px-4" href="#">Discover all items</a>
+
+            <div class="w-50 mx-auto my-5 py-5 pe-5">
+                <img class="img-fluid py-5 pb-0" src="Content/Img/secondary-advertisement-for-Grand-Sponsors.jpg"
+                    alt="Additional advertisement rotates for Grand Sponsors">
+                <p class=" fs-6 fw-light py-3">Ad</p>
+            </div>
+
+            <p class=" fs-1 py-5 mt-5">Polular Sections</p>
+            <section class="row gap-5 gap-sm-0" aria-labelledby="focused-sections">
+                <img class="img-fluid col-sm-12 col-md-4 mb-sm-5 mb-md-0" src="Content/Img/focused-section-1.jpg"
+                    alt="Category 1 with most visited recorded">
+                <img class="img-fluid col-sm-6 col-md-4" src="Content/Img/focused-section-2.jpg"
+                    alt="Category 2 with most visited recorded">
+                <img class="img-fluid col-sm-6 col-md-4" src="Content/Img/focused-section-3.jpg"
+                    alt="Category 3 with most visited recorded">
+            </section>
+            <a class="btn btn-light fs-6 my-5 px-4" href="#">Discover all categories</a>
+
+            <div class="w-50 ms-auto my-5 py-5 pe-5">
+                <img class="img-fluid py-5 pb-0" src="Content/Img/secondary-advertisement-for-Grand-Sponsors.jpg"
+                    alt="Additional advertisement rotates for Grand Sponsors">
+                <p class=" fs-6 fw-light py-3">Ad</p>
+            </div>
+
+            <p class=" fs-1 py-5 mt-5">Most Visited Tags</p>
+            <section class="row gap-5 gap-sm-0 gy-sm-5" aria-labelledby="popularTags">
+                <img class="img-fluid col-sm-6 col-md-3" src="Content/Img/popular-tag-1.jpg" alt="Most viewed tag 1">
+                <img class="img-fluid col-sm-6 col-md-3" src="Content/Img/popular-tag-2.jpg" alt="Most viewed tag 2">
+                <img class="img-fluid col-sm-6 col-md-3" src="Content/Img/popular-tag-3.jpg" alt="Most viewed tag 3">
+                <img class="img-fluid col-sm-6 col-md-3" src="Content/Img/popular-tag-4.jpg" alt="Most viewed tag 4">
+            </section>
+            <a class="btn btn-light fs-6 my-5 px-4" href="#">Show all tags</a>
+
+            <div class="w-50 mx-auto my-5 py-5 pe-5">
+                <img class="img-fluid py-5 pb-0" src="Content/Img/secondary-advertisement-for-Grand-Sponsors.jpg"
+                    alt="Additional advertisement rotates for Grand Sponsors">
+                <p class=" fs-6 fw-light py-3 text-center">Ad</p>
+            </div>
+
+            <p class=" fs-1 py-5 mt-5">Latest News Updates</p>
+            <section class="" aria-labelledby="news-posts">
+                <div class="row">
+                    <div class=" col-sm-6 col-lg-7">
+                        <div class="card w-100">
+                            <img class=" card-img-top" src="Content/Img/news-post-thumbnail-image-1.jpg"
+                                alt="News post thumbnail image text 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Lorem ipsum para is a dummy text placeholder for a title
+                                </h5>
+                                <p class=" card-text">
+                                    Lorem ipsum para is a dummy text placeholder for a title
+                                </p>
+                                <a class=" card-link" href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-5 d-flex flex-column gap-5 justify-content-center p-5">
+                        <div class="card">
+                            <img class=" card-img-top" src="Content/Img/news-post-thumbnail-image-2.jpg"
+                                alt="News post thumbnail image text 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Lorem ipsum para is a dummy text placeholder for a title
+                                </h5>
+                                <p class=" card-text">
+                                    Lorem ipsum para is a dummy text placeholder for a title
+                                </p>
+                                <a class=" card-link" href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex overflow-auto my-3 py-5 mt-5">
+
+                    <div class="card me-5" style="min-width: 20rem; max-width: 25rem;">
+                        <img class="card-img-top" src="Content/Img/news-post-thumbnail-image-3.jpg"
+                            alt="News post thumbnail image text 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum para is a dummy text placeholder for a title
+                            </h5>
+                            <p class=" card-text">
+                                Lorem ipsum para is a dummy text placeholder for a title
+                            </p>
+                            <a class=" card-link" href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card me-5" style="min-width: 20rem; max-width: 25rem;">
+                        <img class="card-img-top" src="Content/Img/news-post-thumbnail-image-4.jpg"
+                            alt="News post thumbnail image text 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum para is a dummy text placeholder for a title
+                            </h5>
+                            <p class=" card-text">
+                                Lorem ipsum para is a dummy text placeholder for a title
+                            </p>
+                            <a class=" card-link" href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card me-5" style="min-width: 20rem; max-width: 25rem;">
+                        <img class="card-img-top" src="Content/Img/news-post-thumbnail-image-5.jpg"
+                            alt="News post thumbnail image text 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum para is a dummy text placeholder for a title
+                            </h5>
+                            <p class=" card-text">
+                                Lorem ipsum para is a dummy text placeholder for a title
+                            </p>
+                            <a class=" card-link" href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card me-5" style="min-width: 20rem; max-width: 25rem;">
+                        <img class="card-img-top" src="Content/Img/news-post-thumbnail-image-6.jpg"
+                            alt="News post thumbnail image text 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum para is a dummy text placeholder for a title
+                            </h5>
+                            <p class=" card-text">
+                                Lorem ipsum para is a dummy text placeholder for a title
+                            </p>
+                            <a class=" card-link" href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card me-5" style="min-width: 20rem; max-width: 25rem;">
+                        <img class="card-img-top" src="Content/Img/news-post-thumbnail-image-7.jpg"
+                            alt="News post thumbnail image text 7">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum para is a dummy text placeholder for a title
+                            </h5>
+                            <p class=" card-text">
+                                Lorem ipsum para is a dummy text placeholder for a title
+                            </p>
+                            <a class=" card-link" href="#">Read more</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <a class="btn btn-light fs-6 my-5 px-4" href="#">More Previous News</a>
+
+            <div class="w-50 ms-auto my-5 py-5 pe-5">
+                <img class="img-fluid py-5 pb-0" src="Content/Img/secondary-advertisement-for-Grand-Sponsors.jpg"
+                    alt="Additional advertisement rotates for Grand Sponsors">
+                <p class=" fs-6 fw-light py-3">Ad</p>
+            </div>
+
+            <p class=" fs-1 py-5 mt-5">Learn More With Videos</p>
+            <section class=" " aria-labelledby="video-collection">
+                <div class="row g-0 g-sm-5 ">
+                    <div class=" col-12 col-md-8 col-md-8">
+                        <video
+                            class="w-100 mb-3 border border-3 border-secondary rounded-3 placeholder placeholder-wave"
+                            src="..." title="Video Title 1" muted="" autoplay=""></video>
+                        <a class=" link-dark fs-5 fw-light placeholder placeholder-wave rounded-3">Video title 1 - Video
+                            title 1 - Video title 1 - Video title 1 - Video title 1</a>
+                    </div>
+                    <div class=" col-10 col-md-4 text-center overflow-auto my-5 my-md-0 mx-auto px-3"
+                        style="height: 30em;">
+                        <video class="row w-100 border border-3 border-secondary rounded-3 placeholder placeholder-wave"
+                            src="..." title="Video Title 1" muted=""></video>
+                        <a class="my-3 mb-5 link-dark fs-5 fw-light placeholder placeholder-wave rounded-3">Video title
+                            1 - Video title 1</a>
+                        <video
+                            class="row col-12 col-md-10 mb-3 mb-sm-1 mx-md-auto border border-3 border-secondary rounded-3 placeholder placeholder-wave"
+                            src="..." title="Video Title 1" muted=""></video>
+                        <a
+                            class="my-3 mb-5 link-dark fs-5 fw-light placeholder placeholder-wave rounded-3 text-md-center">Video
+                            title 1 - Video title 1</a>
+                        <video
+                            class="row col-12 col-md-10 mb-3 mb-sm-1 mx-md-auto border border-3 border-secondary rounded-3 placeholder placeholder-wave"
+                            src="..." title="Video Title 1" muted=""></video>
+                        <a
+                            class="my-3 mb-5 link-dark fs-5 fw-light placeholder placeholder-wave rounded-3 text-md-center">Video
+                            title 1 - Video title 1</a>
+                        <video
+                            class="row col-12 col-md-10 mb-3 mb-sm-1 mx-md-auto border border-3 border-secondary rounded-3 placeholder placeholder-wave"
+                            src="..." title="Video Title 1" muted=""></video>
+                        <a
+                            class="my-3 mb-5 link-dark fs-5 fw-light placeholder placeholder-wave rounded-3 text-md-center">Video
+                            title 1 - Video title 1</a>
+                        <video
+                            class="row col-12 col-md-10 mb-3 mb-sm-1 mx-md-auto border border-3 border-secondary rounded-3 placeholder placeholder-wave"
+                            src="..." title="Video Title 1" muted=""></video>
+                        <a
+                            class="my-3 mb-5  link-dark fs-5 fw-light placeholder placeholder-wave rounded-3 text-md-center">Video
+                            title 1 - Video title 1</a>
+                    </div>
+                </div>
+            </section>
+            <a class="btn btn-light fs-6 my-5 px-4" href="#">Watch Entire Collections</a>
+
+            <div class="w-50 mx-auto my-5 py-5 pe-5">
+                <img class="img-fluid py-5 pb-0" src="Content/Img/secondary-advertisement-for-Grand-Sponsors.jpg"
+                    alt="Additional advertisement rotates for Grand Sponsors">
+                <p class=" fs-6 fw-light py-3 text-end">Ad</p>
+            </div>
+
+            <p class=" fs-1 py-5 mt-5">Headline Articles From Experts</p>
+            <section class="" aria-labelledby="headline-articles">
+                <div class="row">
+                    <div
+                        class="col-sm-8 col-lg-4 d-flex flex-column gap-5 justify-content-center p-5 p-sm-0 pb-5 pb-sm-5 pe-md-3 mx-auto">
+                        <div class="card">
+                            <img class=" card-img-top" src="Content/Img/headline-article-image-2.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Lorem ipsum para is a dummy text placeholder for a title
+                                </h5>
+                                <p class=" card-text">
+                                    Lorem ipsum para is a dummy text placeholder for a title
+                                </p>
+                                <a class=" card-link" href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-sm-12 col-lg-8">
+                        <div class="card w-100">
+                            <img class=" card-img-top" src="Content/Img/headline-article-image-1.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Lorem ipsum para is a dummy text placeholder for a title
+                                </h5>
+                                <p class=" card-text">
+                                    Lorem ipsum para is a dummy text placeholder for a title
+                                </p>
+                                <a class=" card-link" href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex overflow-auto my-5 py-5 mb-5">
+
+                    <div class="card me-5" style="min-width: 25rem; max-width: 30rem;">
+                        <img class="card-img-top" src="Content/Img/headline-article-image-3.jpg"
+                            alt="Example text for headline image thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum para is a dummy text placeholder for a title
+                            </h5>
+                            <p class=" card-text">
+                                Lorem ipsum para is a dummy text placeholder for a title
+                            </p>
+                            <a class=" card-link" href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card me-5" style="min-width: 25rem; max-width: 30rem;">
+                        <img class="card-img-top" src="Content/Img/headline-article-image-4.jpg"
+                            alt="Example text for headline image thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum para is a dummy text placeholder for a title
+                            </h5>
+                            <p class=" card-text">
+                                Lorem ipsum para is a dummy text placeholder for a title
+                            </p>
+                            <a class=" card-link" href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card me-5" style="min-width: 25rem; max-width: 30rem;">
+                        <img class="card-img-top" src="Content/Img/headline-article-image-5.jpg"
+                            alt="Example text for headline image thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum para is a dummy text placeholder for a title
+                            </h5>
+                            <p class=" card-text">
+                                Lorem ipsum para is a dummy text placeholder for a title
+                            </p>
+                            <a class=" card-link" href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card me-5" style="min-width: 25rem; max-width: 30rem;">
+                        <img class="card-img-top" src="Content/Img/headline-article-image-6.jpg"
+                            alt="Example text for headline image thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum para is a dummy text placeholder for a title
+                            </h5>
+                            <p class=" card-text">
+                                Lorem ipsum para is a dummy text placeholder for a title
+                            </p>
+                            <a class=" card-link" href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card me-5" style="min-width: 25rem; max-width: 30rem;">
+                        <img class="card-img-top" src="Content/Img/headline-article-image-7.jpg"
+                            alt="Example text for headline image thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum para is a dummy text placeholder for a title
+                            </h5>
+                            <p class=" card-text">
+                                Lorem ipsum para is a dummy text placeholder for a title
+                            </p>
+                            <a class=" card-link" href="#">Read more</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <a class="btn btn-light fs-6 my-5 px-4" href="#">Read All Articles</a>
+
+            <div class="w-50 mx-auto my-5 py-5 pe-5">
+                <img class="img-fluid py-5 pb-0" src="Content/Img/secondary-advertisement-for-Grand-Sponsors.jpg"
+                    alt="Additional advertisement rotates for Grand Sponsors">
+                <p class=" fs-6 fw-light py-3">Ad</p>
+            </div>
+
+            <section class="row py-5 my-5" aria-labelledby="advancedFilterThumbnail">
+                <img class="img-thumbnail col-md-6 p-3" src="Content/Img/advanced-search-intro.jpg"
+                    alt="try detailed search for more results">
+                <div class="col-md-6 p-5">
+                    <p class="fs-3 fw-light py-5 pb-2 my-5 mb-1"><a class="link-info" href="#">Please Filter Your
+                            Search</a> Further For More Broader Results,</p>
+                    <p class="fs-6 fw-light py-3">Just In Case Your Favorite Ones Haven't Shown Up There...</p>
+
+                </div>
+            </section>
+
+            <div class="d-flex justify-content-center">
+                <a class=" btn btn-outline-success px-4" href="#">Move To Top</a>
+
+            </div>
+
+            <div class="w-50 ms-auto my-5 py-5 ps-5">
+                <img class="img-fluid py-5 pb-0" src="Content/Img/secondary-advertisement-for-Grand-Sponsors.jpg"
+                    alt="Additional advertisement rotates for Grand Sponsors">
+                <p class=" fs-6 fw-light py-3">Ad</p>
+            </div>
+
+        </main>
+
+
+    </div>
+    <div class="container-fluid bg-light">
+
+        <div class="navbar navbar-expand-lg container d-flex">
+
+            <style>
+                a.navbar-brand>img {
+                    width: 3rem;
+                    height: 3rem;
+                }
+
+                a.navbar-brand {}
+            </style>
+            <button class="navbar-toggler col-1 p-2 me-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav1" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle guide bar">
+                <img class="img-fluid" src="Content/Img/Navbar Toggle icon.jpg" alt="Navbar toggle icon">
+            </button>
+            <div class="collapse navbar-collapse py-5 text-center text-sm-start" id="navbarNav1">
+                <ul class="navbar-nav nav-pills gap-3 d-flex flex-wrap pe-5 ">
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#" aria-current="page">Category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active px-5" href="#">All Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Tag List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Filters</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="navbar-brand nav-link d-flex justify-content-center flex-fill text-secondary col-2" href="#">
+                <img src="Content/Img/atrack_logo.png" alt="logo">
+                A TEST
+            </a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+
+
+        </div>
+
+        <p class="container text-secondary py-4 pb-3 fs-5 fw-light">Useful Content</p>
+        <div class="container text-center mx-auto bg-gradient">
+            <ul class="nav row-cols-1 row-cols-sm-2 row-cols-md-4 nav-pills py-5">
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+
+                <li class="nav-item mb-5 d-flex justify-content-center">
+
+                    <a class="nav-link  active bg-light text-dark px-4 align-self-center" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+                <li class="nav-item mb-5 d-flex justify-content-center">
+                    <a class="nav-link text-secondary" href="#">Footer Content</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <footer class="container">
+            <p class="p-3 mt-5 text-end text-secondary">© 2025 - Developed in <b>ASP.NET</b> Application EcoSystem.</p>
+        </footer>
+    </div>
+
+
+    <script src="Content/Scripts/bootstrap.js"></script>
+
+    <link href="Content/bootstrap.css" rel="stylesheet">
+    <link href="Content/bootstrap-grid.css" rel="stylesheet">
+    <link href="Content/Site.css" rel="stylesheet">
+
+    <style>
+        body {
+            /* Let Bootstrap handle smaller screens. */
+            min-width: 0;
+        }
+    </style>
+
+
+</body>
+
+</html>
